@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Collections;
 
 public class Node implements Comparable<Node>{
     public int x, y;

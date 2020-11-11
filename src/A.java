@@ -1,14 +1,13 @@
 import edu.princeton.cs.algs4.StdDraw;
-
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class A implements Finder{// A*
-    ArrayList<Node> closed;
-    ArrayList<Node> open;
-    Grid grid;
+    private final ArrayList<Node> closed;
+    private final ArrayList<Node> open;
+    private final Grid grid;
 
     public A(Grid grid){
         closed = new ArrayList<>();

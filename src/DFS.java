@@ -1,7 +1,5 @@
-import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.StdDraw;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

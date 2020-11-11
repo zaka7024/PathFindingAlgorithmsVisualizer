@@ -6,9 +6,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class Dijkstra implements Finder {
-    ArrayList<Node> closed;
-    ArrayList<Node> open;
-    Grid grid;
+    private final ArrayList<Node> closed;
+    private final ArrayList<Node> open;
+    private final Grid grid;
 
     public Dijkstra(Grid grid){
         closed = new ArrayList<>();
